@@ -4,8 +4,8 @@ HTML-CSS kullanarak bir satranç tahtası yaptık. Kodları hiç bilmeyen birini
 
 Satranç taşları ve kodları:
 
-<img src="tas.png">
+<img src="tas.png" width = 500>
 
 Satranç tahtamız:
 
-<img src="view.png">
+<img src="view.png" width = 500>
