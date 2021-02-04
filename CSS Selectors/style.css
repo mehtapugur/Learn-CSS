@@ -1,0 +1,32 @@
+.sec {
+  color: blueviolet;
+  font-style: italic;
+}
+
+#sp {
+  font-weight: bold;
+}
+
+.fp, #dd {
+  color: brown;
+} /* iki seçici için aynı özelliği verdik */
+
+h2 + p  {
+  color: yellowgreen;
+} /* h3 ten sonra gelen ilk p yi seçti, diğerlerini etkilemez */
+
+p + div {
+  color: peru;
+} /* p den sonra gelen ilk div i seçti */
+
+p + div span {
+  color: red;
+} /* p den sonra gelen ilk div in içindeki span i seçti */
+
+.son ~ p {
+  color: pink;
+} /* .son dan sonra gelen tüm p leri etkiler*/
+
+ul li.list2 + li {
+  color: blue;
+} /* list class ına sahip 2. lisonra gelen li yi etkiledi*/
