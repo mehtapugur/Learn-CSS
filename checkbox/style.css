@@ -1,0 +1,44 @@
+label {
+  /* display: inline-block; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -20px;;
+}
+
+.checkbox {
+  display: inline-block;
+  width: 95px;
+  height: 40px;
+  background-color: #ddd;
+  border-radius: 40px;
+  position: relative;
+  transition: 500ms background-color;
+}
+
+.checkbox .check-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(94, 235, 94);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  transition: 500ms left, 500ms background-color;
+}
+
+label input:checked + .checkbox {
+  background-color: rgb(94, 235, 94);
+}
+
+label input:checked + .checkbox .check-btn {
+  left: 60px;
+  /* left: auto;
+  right: 5px ; böyle de yazabilirdik */
+  background-color: white;
+}
+
+label input {
+  display: none;
+}
