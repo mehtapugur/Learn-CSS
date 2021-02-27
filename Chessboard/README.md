@@ -1,10 +1,10 @@
 CHESSBOARD
 
-Satranç taşları ve kodları:
+Chess pieces and their codes:
 
 <img src="tas.png" width = 500>
 
-Satranç tahtamız:
+Our chess board:
 
 <img src="view.png" width = 500>
 
