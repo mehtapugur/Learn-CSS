@@ -1,0 +1,29 @@
+body {
+          background: #2f3640; /* arkaplan rengi */
+        }
+        h1 { /* başlık özellikleri */
+          color: white;
+          font-family: sans-serif;
+          text-align: center; /* başlık merkezde */
+          /* em: bağıl ölçü birimidir. Body'de'default font-size'a bağlı büyüme-küçülme gösterir.*/
+          font-size: 3em;
+        }
+        table {
+          /* margin: html elementlerin arasındaki mesafeyi ayarlamak için ve  elementleri sayfada
+          ortalama (center) için de sıkça kullanılır.Bunun için margin özelliğinin auto değeri kullanılır */
+          margin: auto;
+          border: 17px solid #DAA520; /* solid: border düz çizgi şeklinde */
+          border-spacing: 5px; /* border-spacing: tablo hücrelerinin kenarlarının arasındaki boşluğu tanımlar. */
+        }
+        table td { /* td (table data): tablo sütunu */
+          width: 75px;
+          height: 75px;
+          background: #f5f6fa;
+          font-size: 3em;
+          line-height: 75px; /* Yazı tipinin ne kadar kalın ya da ince görüneceği belirlenir */
+          text-align: center;
+          border: 2px solid #2f3640;
+        }
+        .black {
+          background: #718093;
+        }

@@ -1,1 +1,1 @@
-Basit bir pop-up kodu.
+a simple popup code
